@@ -1,0 +1,17 @@
+put A c
+put B d
+get A
+put A e
+get A
+get A 2
+del A
+get A
+get A 5
+put B f
+del B d
+get B
+diff A 1 2
+diff A 3 5
+diff A 1 4
+diff B 0 1
+quit
